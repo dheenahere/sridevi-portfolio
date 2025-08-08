@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: CheriDark;
+    src: url(assets/fonts/CHERI___.TTF);
+}
+
+@font-face {
+    font-family: CheriStroke;
+    src: url(assets/fonts/CHERL___.TTF);
+}
+
+@font-face {
+    font-family: Playfull;
+    src: url(assets/fonts/PlayfulBoxes.otf);
+}
+
+@theme{
+    --font-cheri_dark: CheriDark;
+    --font-cheri_stroke: CheriStroke;
+    --font-playfull: Playfull;
+}
